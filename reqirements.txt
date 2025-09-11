@@ -1,0 +1,16 @@
+annotated-types==0.7.0
+cloudpickle==3.1.1
+Farama-Notifications==0.0.4
+gymnasium==1.2.0
+numpy==2.3.3
+pydantic==2.11.7
+pydantic_core==2.33.2
+setuptools==80.9.0
+typing-inspection==0.4.1
+typing_extensions==4.15.0
+wheel==0.45.1
+python-dotenv>=1.0.0       # for .env config loading
+rich>=13.7.0               # for CLI formatting and debug output
+loguru>=0.7.2              # for structured logging
+lupa>=1.14.1               # Lua-Python bridge
+imageio>=2.34.0            # for media frame handling

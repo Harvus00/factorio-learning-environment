@@ -73,8 +73,8 @@ class CodeProcessor:
     @staticmethod
     def summarize_code_block(
         code: str,
-        start_line: int = None,
-        end_line: int = None,
+        start_line: Optional[int] = None,
+        end_line: Optional[int] = None,
         preserve_comments: bool = True,
     ) -> str:
         """
@@ -146,7 +146,7 @@ class CodeProcessor:
         return "\n".join(result)
 
 
-class ConversationFormatter(ABC):
+
     """Abstract base class for conversation formatting strategies"""
 
     @abstractmethod

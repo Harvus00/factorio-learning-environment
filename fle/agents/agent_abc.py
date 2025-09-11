@@ -1,6 +1,8 @@
 from abc import abstractmethod
 
-from a2a.types import AgentCapabilities, AgentCard, AgentProvider, AgentSkill
+#from a2a.types import AgentCapabilities, AgentCard, AgentProvider, AgentSkill
+
+from fle.env.protocols.a2a.types import AgentCapabilities, AgentCard, AgentProvider, AgentSkill
 
 from fle.commons.models.conversation import Conversation
 from fle.env.namespace import FactorioNamespace
